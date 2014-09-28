@@ -214,7 +214,7 @@ int worker_request_cb(easy_request_t *r, void *args) {
     //return worker_request_handler(r, args);
     ((void)(args));
 
-easy_fatal_log("in worker_request_cb r=%p, r->ipacket=%p", r, r->ipacket);
+    //easy_fatal_log("in worker_request_cb r=%p, r->ipacket=%p", r, r->ipacket);
     if (NULL==r|| r->ipacket==NULL) {
         easy_fatal_log("NULL==r NULL==r->ipacket");
         return EASY_ERROR;

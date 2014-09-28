@@ -10,8 +10,9 @@
 
 
 //#define IPSTR "10.211.55.5"
-//#define IPSTR "192.168.7.110"
-#define IPSTR "192.168.7.160"
+#define IPSTR "192.168.7.110"
+//#define IPSTR "192.168.7.160"
+//#define IPSTR "192.168.7.102"
 
 //struct sockaddr {
 //    uint8_t       sin_len;
